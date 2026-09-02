@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    a{
+        @apply font-medium text-base leading-7 text-[#BBBBCB]
+    }
+}
+
+@layer components{
+    .container{
+        @apply w-full max-w-[1320px] mx-auto px-5
+    }
+}
