@@ -6,9 +6,16 @@
     a{
         @apply font-medium text-base leading-7 text-[#BBBBCB]
     }
+    p{
+        @apply font-medium text-base leading-7 opacity-70
+    }
+
+    h1,h2{
+        @apply font-semibold text-5xl leading-[64px]
+    }
 }
 
-@layer components{
+@layer utilities{
     .container{
         @apply w-full max-w-[1320px] mx-auto px-5
     }
