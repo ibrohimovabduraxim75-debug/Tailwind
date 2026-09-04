@@ -763,8 +763,16 @@ h1,h2 {
   height: 380px;
 }
 
+.h-\[428px\] {
+  height: 428px;
+}
+
 .h-\[508px\] {
   height: 508px;
+}
+
+.h-\[561px\] {
+  height: 561px;
 }
 
 .h-\[641px\] {
@@ -773,30 +781,6 @@ h1,h2 {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[601px\] {
-  height: 601px;
-}
-
-.h-\[561px\] {
-  height: 561px;
-}
-
-.h-\[428\] {
-  height: 428;
-}
-
-.h-\[428px\] {
-  height: 428px;
-}
-
-.h-\[4287px\] {
-  height: 4287px;
 }
 
 .min-h-\[218px\] {
@@ -843,36 +827,20 @@ h1,h2 {
   width: 623px;
 }
 
+.w-\[760px\] {
+  width: 760px;
+}
+
 .w-\[840px\] {
   width: 840px;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[10\] {
-  width: 10;
-}
-
-.w-\[1024px\] {
-  width: 1024px;
 }
 
 .w-\[984px\] {
   width: 984px;
 }
 
-.w-\[760\] {
-  width: 760;
-}
-
-.w-\[760px\] {
-  width: 760px;
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[1064px\] {
@@ -1095,11 +1063,6 @@ h1,h2 {
   background-color: rgb(75 79 232 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#F4EDE1\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 237 225 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[\#F4F5FA\] {
   --tw-bg-opacity: 1;
   background-color: rgb(244 245 250 / var(--tw-bg-opacity, 1));
@@ -1199,6 +1162,42 @@ h1,h2 {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-\[\#EEBCA7\] {
+  --tw-gradient-from: #EEBCA7 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(238 188 167 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\] {
+  --tw-gradient-from:  var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#C8C8C8\] {
+  --tw-gradient-from: #C8C8C8 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(200 200 200 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#98A4FF\] {
+  --tw-gradient-from: #98A4FF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(152 164 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#9BF6D5\] {
+  --tw-gradient-from: #9BF6D5 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(155 246 213 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#D6ACEA\] {
+  --tw-gradient-from: #D6ACEA var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(214 172 234 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-\[\#383A96\]\/80 {
   --tw-gradient-to: rgb(56 58 150 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgb(56 58 150 / 0.8) var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -1216,12 +1215,44 @@ h1,h2 {
   --tw-gradient-to: rgb(122 108 181 / 0.7) var(--tw-gradient-to-position);
 }
 
+.to-\[\#C8C8C8\] {
+  --tw-gradient-to: #C8C8C8 var(--tw-gradient-to-position);
+}
+
 .to-\[\#F4EDE1\] {
   --tw-gradient-to: #F4EDE1 var(--tw-gradient-to-position);
 }
 
 .to-\[\#FFD3AF\] {
   --tw-gradient-to: #FFD3AF var(--tw-gradient-to-position);
+}
+
+.to-\[\#F4EDE198B1C6\] {
+  --tw-gradient-to: #F4EDE198B1C6 var(--tw-gradient-to-position);
+}
+
+.to-\[\#98B1C6\] {
+  --tw-gradient-to: #98B1C6 var(--tw-gradient-to-position);
+}
+
+.to-\[\] {
+  --tw-gradient-to:  var(--tw-gradient-to-position);
+}
+
+.to-\[\#EEBCA7\] {
+  --tw-gradient-to: #EEBCA7 var(--tw-gradient-to-position);
+}
+
+.to-\[\#C2E7F2\] {
+  --tw-gradient-to: #C2E7F2 var(--tw-gradient-to-position);
+}
+
+.to-\[\#C5BCFF\] {
+  --tw-gradient-to: #C5BCFF var(--tw-gradient-to-position);
+}
+
+.to-\[\#D2D6FD\] {
+  --tw-gradient-to: #D2D6FD var(--tw-gradient-to-position);
 }
 
 .bg-cover {
@@ -1617,10 +1648,6 @@ h1,h2 {
   max-width: 1320px;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.backdrop\:justify-center::backdrop {
-  justify-content: center;
 }
 
 .hover\:text-\[\#4B4FE8\]:hover {
